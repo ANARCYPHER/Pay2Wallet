@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2a80e7</color>
+    <color name="colorPrimaryDark">#2a80e7</color>
+    <color name="colorAccent">#222426</color>
+    <color name="white">#ffffff</color>
+    <color name="black_txt_Color">#222426</color>
+    <color name="bg_blue">#318cf7</color>
+    <color name="transparent">#00000000</color>
+    <color name="hint_color">#a6a6a6</color>
+    <color name="orange">#f5975c</color>
+    <color name="tab_unselect_txt">#a9a9aa</color>
+    <color name="tab_select_txt">#000000</color>
+    <color name="black_txt">#222426</color>
+    <color name="scanBg">#312d2d</color>
+    <color name="offer_txt_color">#858585</color>
+    <color name="offer_txt2_color">#4a5159</color>
+    <color name="geryTxt">#858585</color>
+    <color name="light_grey_txt">#a6a6a6</color>
+    <color name="green">#28a644</color>
+    <color name="light_weight_gray">#99000000</color>
+    <color name="black">#000000</color>
+</resources>

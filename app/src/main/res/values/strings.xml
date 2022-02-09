@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Pay2Wallet</string>
+    <string name="app_name1">Scan &amp; Pay</string>
+    <string name="send_money">Send Money</string>
+    <string name="recharges_amp_pay_bills"><![CDATA[Recharges & Pay Bills]]></string>
+    <string name="scan_pay">Scan Pay2 or any QR</string>
+    <string name="t_amp_c_apply"><![CDATA[*T&C Apply]]></string>
+    <string name="my_transactions">My Transactions</string>
+    <string name="wallet_balance">Wallet Balance</string>
+    <string name="_1_500_20">$ 1,500.20</string>
+    <string name="mon_15_feb_balance_36_131_45">Mon 15 Feb Balance $ 36,131.45</string>
+    <string name="mobile_recharged">Mobile recharged</string>
+    <string name="_50">50</string>
+    <string name="_9382332131">9382332131</string>
+    <string name="debited_from">Debited from</string>
+    <string name="add_wallet_balance">Add Wallet Balance</string>
+    <string name="_250">$ 250</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="_4029_1213">4029 **** **** 1213</string>
+    <string name="_01_21">01/21</string>
+    <string name="cc">Credit Card</string>
+    <string name="add_new_card">Add New Card</string>
+    <string name="j">J</string>
+    <string name="john_doe">John Doe</string>
+    <string name="saved_cards">Saved Cards</string>
+    <string name="john_doe_com">john@doe.com</string>
+    <string name="edit">Edit</string>
+    <string name="_981738211">981738211</string>
+    <string name="wallet">Wallet</string>
+    <string name="refer_and_earn">Refer and Earn</string>
+    <string name="change_language">Change Language</string>
+    <string name="help">Help</string>
+    <string name="policies">Policies</string>
+    <string name="sign_out">Sign out</string>
+    <string name="enter_your_card_information">Enter Your Card Information</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="pay2313114422">Pay2313114422</string>
+    <string name="transacted_on">Transacted on</string>
+    <string name="_28_apr_2018_sat_10_33_p_m">28 Apr 2018, Sat, 10:33 p.m.</string>
+    <string name="successful">Successful</string>
+    <string name="need_help_about_this_transaction">Need help about this transaction?</string>
+    <string name="_1700_xxxx_xxxx_1982">1700 xxxx xxxx 1982</string>
+    <string name="sign_in">Sign in</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="shop_not_accepting_pay2_refer_shop">Shop not accepting Pay2? Refer Shop</string>
+
+</resources>

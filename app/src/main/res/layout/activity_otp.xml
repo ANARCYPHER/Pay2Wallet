@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <include layout="@layout/toolbar"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="74dp"
+    android:orientation="vertical"
+    android:paddingLeft="11.7dp"
+    android:paddingRight="13.3dp"
+    android:background="@color/bg_blue">
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:text="We have sent a “4 digit Code”"
+        />
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:gravity="end"
+        android:text="Change"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="-5dp"
+        android:layout_gravity="right"
+        />
+    <customfonts.MyTextView_Roboto_Bold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="On +91 97374928198"
+        />
+</LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/loading"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="42.3dp"/>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#222426"
+        android:text="Be Patient"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="#a6a6a6"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:text="We are verifying your mobile number"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="57.7dp"
+        android:layout_gravity="center_horizontal">
+        <View
+            android:layout_width="46dp"
+            android:layout_height="1dp"
+            android:background="#d0d0d0"
+            android:layout_marginRight="8.7dp"/>
+        <View
+            android:layout_width="46dp"
+            android:layout_height="1dp"
+            android:background="#d0d0d0"
+            android:layout_marginRight="8.7dp"/>
+        <View
+            android:layout_width="46dp"
+            android:layout_height="1dp"
+            android:background="#d0d0d0"
+            android:layout_marginRight="8.7dp"/>
+        <View
+            android:layout_width="46dp"
+            android:layout_height="1dp"
+            android:background="#d0d0d0"
+            android:layout_marginRight="0dp"/>
+    </LinearLayout>
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12.7sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        android:textColor="#318cf7"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="55 sec"
+        android:layout_marginTop="51.3dp"
+        />
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12.7sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="normal"
+        android:textColor="#9e9e9e"
+        android:gravity="center_horizontal"
+        android:text="Resend OTP"
+        android:layout_marginTop="13.3dp"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

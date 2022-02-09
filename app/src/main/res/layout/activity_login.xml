@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:background="@drawable/wallet_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.3dp"
+
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="26.3dp"
+            android:src="@drawable/logo_pay2" />
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26.3dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Welcome back!  "
+            android:textColor="@color/black_txt_Color"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26.3dp"
+            android:layout_marginRight="26.3dp"
+            android:layout_marginTop="100.7dp"
+            android:background="@drawable/signin_rect"
+            android:elevation="1dp">
+
+            <customfonts.EditText_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:fontFamily="sans-serif"
+                android:hint="Jay"
+                android:paddingBottom="15.7dp"
+                android:paddingLeft="16.3dp"
+                android:paddingTop="15.7dp"
+                android:textColor="@color/black_txt_Color"
+                android:textColorHint="@color/black_txt_Color"
+                android:textSize="15sp"
+
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26.3dp"
+            android:layout_marginRight="26.3dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/signin_rect"
+            android:elevation="1dp">
+
+            <customfonts.EditText_Roboto_Regular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:fontFamily="sans-serif"
+                android:hint="****"
+                android:inputType="textPassword"
+                android:paddingBottom="15.7dp"
+                android:paddingLeft="16.3dp"
+                android:paddingTop="15.7dp"
+                android:textColor="@color/black_txt_Color"
+                android:textColorHint="@color/black_txt_Color"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+        <customfonts.Button_Roboto_Medium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:elevation="1dp"
+            android:layout_marginTop="83dp"
+            android:background="@drawable/signin_rect"
+            android:gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:paddingBottom="15.7dp"
+            android:paddingTop="15.7dp"
+            android:layout_marginRight="26.3dp"
+            android:layout_marginLeft="26.3dp"
+            android:textColor="@color/bg_blue"
+            android:text="SIGN IN"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13.3sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textColor="@color/black_txt_Color"
+                android:gravity="center_horizontal"
+                android:text="Don’t have an account?" />
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13.3sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textColor="@color/bg_blue"
+                android:gravity="center_horizontal"
+                android:text="Sign up"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

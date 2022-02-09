@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="108.7dp"
+    android:layout_marginLeft="10dp"
+    android:layout_height="145dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:elevation="13dp"
+        app:cardCornerRadius="2dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="4.3sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textColor="@color/offer_txt_color"
+                android:gravity="end"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="4dp"
+                android:text="@string/t_amp_c_apply"
+                />
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_ccd_logo"
+                android:layout_marginTop="10dp"
+                android:id="@+id/logoImage"
+                android:layout_gravity="center_horizontal"/>
+            <customfonts.MyTextView_Roboto_Light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13.3sp"
+                android:id="@+id/offerField1"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="normal"
+                android:textColor="@color/offer_txt2_color"
+                android:gravity="center_horizontal"
+                android:text="Get"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13.3sp"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="normal"
+                android:id="@+id/offerField2"
+                android:textColor="@color/offer_txt2_color"
+                android:gravity="center_horizontal"
+                android:text="45% Cashback*"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/dotted"
+                android:layerType="software" />
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="7.3sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:id="@+id/offerField3"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:textColor="#a6a6a6"
+                android:gravity="center_horizontal"
+                android:text="On 2 coffee at Cafe Coffe Day"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

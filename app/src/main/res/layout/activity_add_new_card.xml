@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddNewCardActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/toolbar2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="26.3dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/card_img"/>
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13.3sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textColor="@color/light_grey_txt"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/enter_your_card_information"
+                />
+            <customfonts.CustomTabLayout
+                android:layout_width="match_parent"
+                android:layout_height="49.7dp"
+                android:id="@+id/tab"
+                android:elevation="0dp"
+                app:tabIndicatorColor="@color/bg_blue"
+                app:tabIndicatorHeight="1.7dp"
+                android:background="@color/white"
+                app:tabGravity="fill"
+                app:tabMode="fixed"
+                app:tabTextColor="@color/geryTxt"
+                app:tabPaddingStart="60dp"
+                app:tabPaddingEnd="50dp"
+                app:tabTextAppearance="@style/MyCustomTextAppearance"
+                app:tabSelectedTextColor="@color/black_txt_Color"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white">
+
+                    <wolfsoft1.pay2wallet.WrapContentHeightViewPager
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/vp"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_blue"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:paddingTop="16.3dp"
+        android:gravity="center_horizontal"
+        android:text="Save">
+
+    </customfonts.MyTextView_Roboto_Regular>
+
+</RelativeLayout>

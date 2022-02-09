@@ -1,0 +1,45 @@
+<tabs>
+    <tab
+        id="@+id/home"
+        icon="@drawable/home"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+        title="Home"
+
+        />
+    <tab
+        id="@+id/search"
+        icon="@drawable/offers"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+        title="Offers"
+
+
+        />
+    <tab
+        id="@+id/tickets"
+        icon="@drawable/scan_and_pay"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+        title="Sacn  Pay"
+
+        />
+    <tab
+        id="@+id/profilee"
+        icon="@drawable/transactions"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+        title="Transactions"
+
+
+        />
+    <tab
+        id="@+id/profile"
+        icon="@drawable/account"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+        title="Account"
+        />
+
+
+</tabs>

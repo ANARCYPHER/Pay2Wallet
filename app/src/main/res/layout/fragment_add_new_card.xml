@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="27.9dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black_txt_Color"
+        android:hint="Card Number"
+        android:layout_marginLeft="30dp"
+        android:theme="@style/TextLabel">
+
+
+        <customfonts.EditText_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:drawablePadding="10dp"
+        android:background="@color/transparent"
+        android:paddingTop="10dp"
+        android:textColor="@color/black_txt_Color"
+        android:textColorHint="@color/geryTxt"
+        android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="9.5dp"
+        android:layout_marginBottom="10dp"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black_txt_Color"
+        android:hint="Name on Card"
+        android:layout_marginLeft="30dp"
+        android:theme="@style/TextLabel">
+
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:drawablePadding="10dp"
+            android:background="@color/transparent"
+            android:paddingTop="10dp"
+            android:textColor="@color/black_txt_Color"
+            android:textColorHint="@color/geryTxt"
+            android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="9.5dp"
+        android:layout_marginBottom="10dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black_txt_Color"
+        android:hint="Expiration Date"
+        android:layout_marginLeft="30dp"
+        android:theme="@style/TextLabel">
+
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:drawablePadding="10dp"
+            android:background="@color/transparent"
+            android:paddingTop="10dp"
+            android:textColor="@color/black_txt_Color"
+            android:textColorHint="@color/geryTxt"
+            android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="9.5dp"
+        android:layout_marginBottom="10dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black_txt_Color"
+        android:hint="CVV"
+        android:layout_marginLeft="30dp"
+        android:theme="@style/TextLabel">
+
+
+        <customfonts.EditText_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:drawablePadding="10dp"
+            android:background="@color/transparent"
+            android:paddingTop="10dp"
+            android:textColor="@color/black_txt_Color"
+            android:textColorHint="@color/geryTxt"
+            android:textSize="15sp" />
+    </android.support.design.widget.TextInputLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="9.5dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</LinearLayout>
